@@ -91,6 +91,10 @@ header ul a:hover{
     transition: 0.5s;
 }
 
+.box-icons a{
+    color: white;
+}
+
 .box-icons a:visited {
     color: white;
 }
