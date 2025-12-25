@@ -331,16 +331,23 @@ body.sidebar-open {
     box-shadow: 0 0 15px #72a1de;
 }
 
+html, body {
+    overflow-x: hidden;
+}
+
 @media (max-width: 480px) {
 
     header {
         padding: 0 10px 0 10px;
         width: 100%;
+        height: 56px;
     }
 
+    
+
     .sidebar {
-        top: 9%;
-        height: 100vh;
+        top: 0;
+        height: 100dvh;
     }
 
     .content {
@@ -367,7 +374,6 @@ body.sidebar-open {
         font-size: 18px;
     }
 
-
     .introduction p {
         margin: 10px 0;
         font-size: 14px;
@@ -381,7 +387,6 @@ body.sidebar-open {
         width: 100%;
         padding: 0 20px 0 20px;
     }
-
 
     .socials {
         display: none;
