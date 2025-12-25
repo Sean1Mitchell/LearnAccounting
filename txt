@@ -1,0 +1,3 @@
+<a href="downloads/example-exercise.xlsx" download target="_blank" rel="noopener">
+  Download example document
+</a>
