@@ -102,6 +102,7 @@ header p {
     transition: width 0.7s ease;
     overflow: hidden;
     z-index: 999;
+    border-left: 2px solid black;
 }
 
 .sidebar.active {
@@ -171,7 +172,7 @@ body.sidebar-open {
 }
 
 .sidebar-dropdown {
-    background-color: red;
+    background-color: white;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease;
@@ -180,13 +181,13 @@ body.sidebar-open {
 .sidebar-dropdown a {
   display: block;
   padding: 10px 10px 10px 30px;
-  color: #ddd;
+  color: black;
   text-decoration: none;
   transition: background-color 0.2s ease;
 }
 
 .sidebar-dropdown a:hover {
-  background-color: green;
+  background-color: #72a1de;
 }
 
 body.sidebar-open {
