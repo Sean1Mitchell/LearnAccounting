@@ -190,10 +190,6 @@ body.sidebar-open {
   background-color: #72a1de;
 }
 
-body.sidebar-open {
-  overflow: hidden;
-}
-
 .sidebar-divider {
     border: 1px solid white;
     margin: 15px 0px 15px 0px;
