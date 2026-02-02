@@ -126,12 +126,14 @@ body.sidebar-open {
 }
 
 .sidebar-content {
-    width: 320px;
+    width: 100%;
+    max-width: 320px;
     height: 100%;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
     font-weight: bold;
-}
+    box-sizing: border-box;
+} 
 
 .sidebar-content p {
     margin: 10px;
@@ -196,6 +198,10 @@ body.sidebar-open {
     color: var(--text);
     text-decoration: none;
     transition: background-color 0.2s ease;
+    white-space: normal;
+    overflow-wrap: anywhere;
+    word-wrap: break-word;
+    hyphens: auto;
 }
 
 .sidebar-dropdown a:hover {
@@ -398,6 +404,11 @@ body {
     }
 
     .sidebar-dropdown {
+        font-size: 15px;
+    }
+
+    .sidebar-dropdown a {
+        padding: 10px 10px 10px 10px;
         font-size: 15px;
     }
 
