@@ -160,6 +160,7 @@ body.sidebar-open {
 .sidebar-btn span {
     position: relative;
     display: inline-block;
+    font-size: 18px;
 }
 
 .sidebar-btn span::after {
@@ -198,6 +199,7 @@ body.sidebar-open {
     color: var(--text);
     text-decoration: none;
     transition: background-color 0.2s ease;
+    font-size: 18px;
     white-space: normal;
     overflow-wrap: anywhere;
     word-wrap: break-word;
@@ -400,6 +402,10 @@ body {
     }
 
     .sidebar-btn {
+        font-size: 15px;
+    }
+
+    .sidebar-btn span {
         font-size: 15px;
     }
 
