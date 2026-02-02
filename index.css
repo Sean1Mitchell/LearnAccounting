@@ -163,6 +163,7 @@ body.sidebar-open {
 .sidebar-btn span {
     position: relative;
     display: inline-block;
+    width: fit-content;
 }
 
 .sidebar-btn span::after {
@@ -197,10 +198,11 @@ body.sidebar-open {
 
 .sidebar-dropdown a {
     display: block;
-    padding: 10px 10px 10px 30px;
+    padding: 10px 10px 10px 10px;
     color: black;
     text-decoration: none;
     transition: background-color 0.2s ease;
+    font-size: 10px;
 }
 
 .sidebar-dropdown a:hover {
