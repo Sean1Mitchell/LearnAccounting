@@ -1,0 +1,54 @@
+
+/* The Default Grid Layout */
+.main-material {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/* Corporate Financial Management Specific Grid Layout */
+.main-material-CFM-MOD1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    grid-template-areas: 
+    "box-1 box-2"
+    "box-3 box-3";
+}
+
+.main-material-CFM-MOD2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    grid-template-areas: 
+    "box-1 box-2 box-3"
+    "box-4 box-5 box-5";
+}
+
+.main-material-CFM-MOD2-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    grid-template-areas:
+    "box-1 box-1"
+    "box-2 box-3";
+}
+
+
+
+
+
+@media (max-width: 480px) {
+    .main-material {
+        grid-template-columns: 1fr;
+    }
+
+    .main-material-CFM-MOD1, .main-material-CFM-MOD2, .main-material-CFM-MOD2-1 {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "box-1"
+        "box-2"
+        "box-3";
+    }
+
+    
+}

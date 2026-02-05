@@ -386,11 +386,6 @@ body.sidebar-open {
     padding-bottom: 30px;
 }
 
-.main-material {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
-
 .content-box,
 .content-box-intro {
     display: flex;
@@ -451,6 +446,11 @@ body.sidebar-open {
     align-items: center;
     margin-top: 40px;
     gap: 20px;
+}
+
+.company-valuation-title {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 
@@ -516,11 +516,5 @@ body.sidebar-open {
     .content-box-intro {
         margin: 10px;
     }
-
-
-    .main-material {
-        grid-template-columns: 1fr;
-    }
-
 
 }
