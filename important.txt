@@ -1,0 +1,27 @@
+IMPORTANT INFORMATION
+
+I will be delivering seven topic:
+
+1.  Corporate Financial Management.
+2.  Corporate Reporting.
+3.  Financial Accounting.
+4.  Management Accounting.
+5.  Bookkeeping.
+6.  Auditing.
+7.  Taxation.
+
+All the files in this is:
+
+1.  The Index (this is effectively the Homepage, which has an independent css file).
+2.  The Home (this is effectively the Homepage of each topic, which also has an independent css file).
+3   The Material (this is effectively the Teaching Element, which has an independent css file too).
+
+Each topic has multiple sub-topics based on how I was taught it, therefore, we will see many html files.
+It's important that these remain outside of a file and strictly in the root. This allows for placement
+into Github (where this PWA is hosted for free). Each sub-topic is listed as "MOD" with a numerical element attached.
+
+The independent css files are:
+
+1.  index.css
+2.  home.css
+3.  material.css
